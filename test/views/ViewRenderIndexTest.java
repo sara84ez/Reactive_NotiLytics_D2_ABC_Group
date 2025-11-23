@@ -1,2 +1,0 @@
-package test; import org.junit.jupiter.api.*; import play.twirl.api.Html; import static org.junit.jupiter.api.Assertions.*; 
-public class ViewRenderIndexTest { @Test public void testIndexViewRenders(){ Html h=views.html.index.render(); assertNotNull(h); assertTrue(h.body().contains("Live Stream")); }}

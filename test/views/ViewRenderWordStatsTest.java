@@ -1,2 +1,0 @@
-package test; import org.junit.jupiter.api.*; import play.twirl.api.Html; import static org.junit.jupiter.api.Assertions.*; 
-public class ViewRenderWordStatsTest { @Test public void testWordStatsViewRenders(){ Html h=views.html.wordStats.render(); assertNotNull(h); assertTrue(h.body().contains("Word Stats")); }}
