@@ -1,0 +1,21 @@
+
+/* Dark Theme Overrides for NotiLytics */
+
+body {
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+input, select {
+    background-color: #1f1f1f !important;
+    color: #fff !important;
+    border: 1px solid #444 !important;
+}
+
+.btn {
+    border-radius: 6px !important;
+}

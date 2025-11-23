@@ -1,0 +1,2 @@
+package test; import org.junit.jupiter.api.*; import play.twirl.api.Html; import static org.junit.jupiter.api.Assertions.*; 
+public class ViewRenderSourcesTest { @Test public void testSourcesViewRenders(){ Html h=views.html.sources.render(); assertNotNull(h); assertTrue(h.body().contains("Sources")); }}

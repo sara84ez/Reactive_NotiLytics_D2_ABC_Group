@@ -1,0 +1,8 @@
+# =========================
+# SOEN 6441 — Delivery 2
+# Reactive, Actor-based, WebSocket-Only
+# Author: Sara Ezzati
+# =========================
+
+# WebSocket endpoint — the ONLY endpoint required in D2
+GET     /ws                 controllers.HomeController.ws
